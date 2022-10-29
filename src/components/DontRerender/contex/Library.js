@@ -1,6 +1,6 @@
 import { useState, useContext } from "react";
 import Book from "./Book";
-import { GlobalContex } from "../../context/GlobalContex";
+import { GlobalContex } from "../../../context/GlobalContex";
 
 const book = [
   {

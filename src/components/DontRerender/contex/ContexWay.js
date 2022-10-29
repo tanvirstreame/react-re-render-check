@@ -1,5 +1,5 @@
 import Library from "./Library";
-import { GlobalContex } from "../../context/GlobalContex";
+import { GlobalContex } from "../../../context/GlobalContex";
 import { useState } from "react";
 
 

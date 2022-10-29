@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 function Book({ name, author}) {
-  console.log("Book render");
+  console.log("Contex Book render");
   return (
     <div className="Book">
       <header className="Book-header">
@@ -15,4 +15,4 @@ function Book({ name, author}) {
   );
 }
 
-export default memo(Book);
+export default Book;

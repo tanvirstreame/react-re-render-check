@@ -1,6 +1,31 @@
 .App {
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
   display: flex;
   justify-content: space-between;
 }
+
+.library-area {
+  border-style: dotted;
+}
+.dont-render-component {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dont-render-component-header {
+  background-color: aqua;
+}
+
+.render-component-header {
+  background-color: aqua;
+}
+
+.header {
+  background-color: aquamarine;
+}
+
+.title {
+  text-align: center;
+}
+  

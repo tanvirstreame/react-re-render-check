@@ -16,7 +16,7 @@ function Library() {
   const [count, setCount] = useState(0);
   // Parent state also re render child state
   return (
-    <div className="Library">
+    <div className="library-area">
       <button onClick={() => setCount(count + 1)}>Count to render</button>
       <header className="Library-header">
         {book.map((each, key) => <Book

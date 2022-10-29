@@ -5,13 +5,10 @@ function Rerender() {
   // This is a pure function
   console.log("From re-render");
 
-  return <div>
-  <div>Rerender</div>
-  <div>
-   <Library />
+  return <div className="render-component">
+    <div className="render-component-header">Rerender</div>
+    <Library />
   </div>
-  
-</div>
 
 }
 

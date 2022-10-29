@@ -1,18 +1,22 @@
-import Library from "./Library";
-
+import Library from "./contex/Library";
+import ReduxWay from "./redux/ReduxWay";
+import ContexWay from "./contex/ContexWay";
+import MemoWay from "./memo/MemoWay";
 
 function DontRerender() {
   // This is a pure function
-  console.log("From re-render");
+  console.log("Dont ReFrom re-render");
+
 
   return <div>
-  <div>Dont Rerender</div>
-  <div>
-   <Library />
+    <div className="dont-render-component-header">Dont Rerender</div>
+    <div className="dont-render-component">
+      <ContexWay/>
+      <MemoWay/>
+      <ReduxWay/>
+    </div>
   </div>
-  
-</div>
-    
+
 }
 
 export default DontRerender;

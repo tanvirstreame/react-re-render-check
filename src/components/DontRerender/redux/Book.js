@@ -1,6 +1,6 @@
-import React, { memo } from "react";
+import React from "react";
 function Book({ name, author}) {
-  console.log("Memo Book render");
+  console.log("Redux Book render");
   return (
     <div className="Book">
       <header className="Book-header">

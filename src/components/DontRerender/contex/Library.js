@@ -15,15 +15,15 @@ const book = [
 
 function ViewCount() {
   
-  const { count } = useContext(GlobalContex);
+  const { state } = useContext(GlobalContex);
   return <>
-  count :{count}
+  count :{state}
   </>
 }
 
 function ClickCount() {
-  const { count, setCount } = useContext(GlobalContex);
-  return <button onClick={() => setCount(count + 1)}>Count to render</button>
+  const { _, dispatch } = useContext(GlobalContex);
+  return <button onClick={() => dispatch("increment")}>Count to render</button>
   
 }
 
